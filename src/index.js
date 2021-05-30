@@ -1,8 +1,7 @@
-import '../src/styles.css';
-import menu from '../src/menu.json';
-import renderMenu from '../src/templates/card.hbs';
+import menu from './menu.json';
+import './styles.css';
+import renderMenu from './templates/card.hbs';
 import switchTheme from './theme.js';
-const ghpages = require('gh-pages');
 
 const containerMenuCards = document.querySelector('.js-menu');
 
